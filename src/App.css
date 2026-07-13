@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.background {
+    background-image: url("./assets/images.steamusercontent.gif");
+}
+
 html,
 body,
 #root {
@@ -31,7 +35,7 @@ body {
     position: fixed;
     inset: -15px;
 
-    background-image: url("/images.steamusercontent.gif");
+    background-image: url("./assets/images.steamusercontent.gif");
     background-size: cover;
     background-position: center;
 
@@ -46,11 +50,9 @@ body {
     inset: 0;
 
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             rgba(7, 30, 26, 0.42),
-            rgba(15, 50, 42, 0.3)
-        );
+            rgba(15, 50, 42, 0.3));
 
     z-index: 1;
 }
@@ -521,6 +523,7 @@ body {
    ========================= */
 
 @media (max-width: 1000px) {
+
     .pokemon-grid,
     .hard-grid {
         grid-template-columns:
