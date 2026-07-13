@@ -45,7 +45,6 @@ This project was built while learning React and helped me practice:
 - Updating state based on user interactions
 - Conditional rendering
 - Working with asynchronous JavaScript
-- Using `Promise.all()` for parallel API requests
 - Creating responsive layouts with CSS Grid
 - Deploying a Vite application with GitHub Pages
 
